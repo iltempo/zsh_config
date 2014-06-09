@@ -31,3 +31,5 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 compinit
 
 eval "$(rbenv init -)"
+
+export GOPATH=$HOME/go
