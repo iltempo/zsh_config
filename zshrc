@@ -2,7 +2,7 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 
-source ~/.zsh/git-prompt/zshrc.sh
+source ~/.zsh/zsh-git-prompt/zshrc.sh
 
 function zle-line-init zle-keymap-select {
   PROMPT="%{$fg[magenta]%}[%{$reset_color%}%~%{$fg[magenta]%}]%{$reset_color%}: "
