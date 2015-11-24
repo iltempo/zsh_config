@@ -23,5 +23,7 @@ compinit
 eval "$(rbenv init -)"
 
 export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
 
 export EDITOR=vim
