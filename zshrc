@@ -27,3 +27,5 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
 export EDITOR=vim
+
+alias vim="NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
