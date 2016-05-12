@@ -15,6 +15,7 @@ zle -N zle-keymap-select
 
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 autoload -U compinit
 fpath=(/usr/local/share/zsh-completions $fpath)
