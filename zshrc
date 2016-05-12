@@ -22,7 +22,7 @@ compinit
 
 eval "$(rbenv init -)"
 
-export GOPATH=$HOME/go
+export GOPATH=$HOME/Documents/Code/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
