@@ -30,3 +30,5 @@ export PATH=$PATH:$GOBIN
 export EDITOR=vim
 
 alias vim="NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
