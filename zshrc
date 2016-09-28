@@ -23,7 +23,7 @@ compinit
 
 eval "$(rbenv init -)"
 
-export GOPATH=$HOME/Documents/Code/go
+export GOPATH=$HOME/Code/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
@@ -31,6 +31,6 @@ export PATH=$PATH:$HOME/.cargo/bin
 
 export EDITOR=vim
 alias vim="NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
-alias code="cd ~/Documents/Code"
+alias code="cd ~/Code"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
