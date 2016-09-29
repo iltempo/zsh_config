@@ -10,21 +10,13 @@ task :link_config_files do
   end
 end
 
-desc "Install plugins"
-task :install_plugins do
-  `git submodule init`
-  `git submodule update`
-end
-
 desc "Update .zsh repository"
 task :update do
   `git pull`
-  `git submodule update`
 end
 
 desc "Install everything"
-task :install => [:link_config_files,
-                  :install_plugins]
+task :install => [:link_config_files]
 
 desc "Update everything"
 task :default => :update
