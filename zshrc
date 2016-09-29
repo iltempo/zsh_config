@@ -29,8 +29,8 @@ export PATH=$PATH:$GOBIN
 
 export PATH=$PATH:$HOME/.cargo/bin
 
-export EDITOR=vim
-alias vim="NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
+export EDITOR=nvim
+alias vim=nvim
 alias code="cd ~/Code"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
