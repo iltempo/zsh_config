@@ -17,6 +17,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 autoload -U compinit
 fpath=(/usr/local/share/zsh-completions $fpath)
 compinit
