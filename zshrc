@@ -31,8 +31,7 @@ export PATH=$PATH:$GOBIN
 
 export PATH=$PATH:$HOME/.cargo/bin
 
-export EDITOR=nvim
-alias vim=nvim
+export EDITOR=vim
 alias code="cd ~/Code"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

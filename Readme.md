@@ -1,6 +1,6 @@
 # Zsh Configuration
 
-My zsh configuration enables vi mode and prompt highlighting.
+My zsh configuration uses some zsh extensions
 
 ## Installation
 
