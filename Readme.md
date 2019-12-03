@@ -4,7 +4,12 @@ My zsh configuration uses some zsh extensions
 
 ## Installation
 
-    brew install zsh zsh-syntax-highlighting zsh-git-prompt zsh-autosuggestions
+Install [Homebrew](https://brew.sh/) and the following casks:
+
+    brew install zsh-syntax-highlighting zsh-autosuggestions zsh-completions
+
+Install my configuration:
+
     curl -Lo- http://bit.ly/zsh_config | bash
 
 ## Updating
